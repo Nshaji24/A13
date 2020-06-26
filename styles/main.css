@@ -1,0 +1,185 @@
+/* the styles for the elements */
+*{
+
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	width: 800px;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	border: #931420 solid 3px;
+	background: #fffded;
+}
+
+/* the styles for the header */
+header{
+	border: #931420 solid 3px;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+	background: linear-gradient(#f6bb73  0% , #f6bb73 30%,white 50%, #f6bb73 80%, #f6bb73 100%)  ;
+}
+header img {
+
+	float: left;
+	border: #931420 solid 3px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 1em;
+}
+h2 {
+	font-size: 170%;
+	color: #800000;
+
+}
+h3 {
+	font-size: 130%;
+	font-style: italic;
+
+}
+
+/* the styles for the section */
+main  {
+	clear: left;
+
+
+}
+h1{
+	font-size: 150%;
+	border: #931420 solid 3px;
+	padding-top: .5em;
+	padding-bottom: .25em;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right:0 ;
+	margin-left: 0;
+
+}
+h2{
+	font-size: 130%;
+	padding-top: .5em;
+	padding-bottom: .25em;
+
+}
+h3{
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+a:hover{
+	font-style: italic;
+}
+
+
+
+/* the styles for the footer */
+footer{
+	border: #931420 solid 3px;
+	background:#931420 ;
+	color: white;
+	clear: both;
+}
+
+p{
+	text-align: center;
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+.shadow{
+	text-shadow:#800000;
+}
+blockquote{
+	font-style: italic;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+ul{
+	padding-bottom: .25em;
+	padding-left: 1.25em;
+}
+li{
+	padding-bottom: .35em;
+}
+section{
+	width: 525px;
+	float: right;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+aside{
+	width: 215px;
+	float: right;
+	padding-left: 20px;
+	padding-bottom: 20px;
+
+
+}
+h3{
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+img{
+	padding-bottom: 1em;
+}
+article{
+	padding-top: .5em;
+	padding-bottom: .5em;
+	border-bottom: 2px #800000;
+	border-top: 2px #800000;
+
+}
+article > img {
+	float: right;
+	margin-left: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	border: black 1px;
+}
+article > h2{
+	padding-top: 0;
+}
+article>h3{
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+#nav_menu{
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+#nav_menu >li{
+	float: left;
+
+}
+#nav_menu >li >a {
+	display: block;
+	width: 160px;
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background: #800000;
+	color: white;
+	font-weight: bold;
+
+}
+.submenu{
+
+list-style-type: none;
+
+	float: none;
+	top: 100%;
+
+
+
+}
+.current{
+	color: yellow;
+}
+.submenu:hover{
+	display: block;
+	visibility: visible;
+	;
+}
